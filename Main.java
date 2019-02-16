@@ -124,8 +124,8 @@ public class Main extends javax.swing.JFrame {
         calculadora = new MyCalculator();
 
         //Instancia el stack
-        MyStack<Integer> fifo;
-        fifo = new MyStack<>();
+        MyStackV<Integer> fifo;
+        fifo = new MyStackV<>();
         
         //crea un lector de archivos 
         FileReader lector;
